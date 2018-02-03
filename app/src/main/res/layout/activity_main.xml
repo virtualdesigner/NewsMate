@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:hint="Enter the news title here..."
+        android:fontFamily="serif"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Search"/>
+
+</RelativeLayout>
